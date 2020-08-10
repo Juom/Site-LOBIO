@@ -1,0 +1,274 @@
+/* PRE-DEFINIIÇÕES */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Bree Serif', serif;
+    color: rgb(31, 31, 31);
+}
+
+p, a{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(31, 31, 31)
+}
+
+.container{
+    padding: 30px;
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.barra{
+    height: 15px;
+    border-radius: 20px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+/* MENU */
+
+.navbar{
+    border-bottom: solid 2px black;
+}
+
+.navbar img{
+    height: 40px;
+}
+
+nav ul{
+    float: left;
+}
+
+/* INICIO */
+
+#bandeira{
+    background: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.box{
+    margin-top: 70vh;
+    flex-wrap: wrap;
+}
+
+.btn-band{
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: black;
+    border: solid 2px rgb(61, 61, 61) ;
+    background: none;
+    border-radius: 15px;
+    transition: .3s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn-band:hover{
+    transform: scale(1.1);
+    border: none ;
+    color: white;
+    transition: .3s;
+    background: linear-gradient(to right,#1c3e9c, #0f08c7);   
+}
+
+
+#aboutIndex{
+    padding: 20px;
+    background: #ffffff;
+}
+#aboutIndex p{
+    color: rgb(37, 37, 37);
+}
+#aboutIndex h3{
+    color: #2100dd;
+}
+
+.imgAboutIndex img{
+    height: 280px;
+}
+
+/* FORMULARIO CONTATO */
+
+#contato{
+    width: 100%;
+    text-align: center;
+    background: #2c2c2c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contato h1{
+    color: white;
+}
+
+.inputContato input, textarea{
+    width: 60%;
+    background: none;
+    color: white;
+    border: solid 2px white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.btnContato{
+    background: white;
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+ }
+ 
+ :-moz-placeholder {
+    color: white;
+ }
+ 
+ ::-moz-placeholder {
+    color: white;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: white;
+ }
+
+
+/* LINHA DE PESQUISA */
+
+#LinhaDePesquisa{
+    height: 100vh;
+    background: rgb(49, 49, 49);
+    padding: 20px;
+    padding-top: 10vh;
+}
+
+#LinhaDePesquisa h1{
+    color: white;       
+    font-size: 2.5em;
+}
+
+
+
+/* PUBLICACOES */
+
+.containerMateriais{
+    padding: 20px;    
+    padding-top: 10vh;
+}
+
+#publicacoes{
+    background: #1b1b1b;
+}
+
+#publicacoes h1{
+    padding-top: 10vh;
+    color: white;
+    font-size: 2.5em;
+}
+
+#publicacoes h2{
+    color: white;
+    font-size: 2em;
+    margin: 3vh;
+}
+
+.post{
+    border-radius: 20px;
+    background: rgb(61, 61, 61);
+    padding: 20px ;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    transition: .3s;
+    margin: 15px;
+}
+
+.post p{
+    color: white;
+    margin-left: 20px;
+}
+.post a{
+    margin-left: 10px;
+}
+
+.btnPost{
+    height: 40px;
+    width: 120px;
+    background: none;
+    color: #0883f7;
+    border: solid 2px #0883f7;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btnPost:hover{
+    border: none;
+    background: white;
+}
+
+/* COLABORADORES */
+#colaboradores{
+    padding-top: 15vh;
+    justify-items: center;
+    align-content: center;
+    background: rgb(43, 43, 43);
+}
+.moldura{
+    width: 250px;
+    background: #303030;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow:  5px 5px 5px black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.moldura p, h3{
+    text-align: center;
+    color: rgb(214, 214, 214);
+    margin: 5px;
+}
+
+.lattes{
+    margin-top: 10px;
+    cursor: pointer;
+    border: solid 2px rgb(0, 48, 207);
+    padding: 15px;
+    border-radius: 20px;
+    background: none;
+    transition: .5s;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.lattes:hover{
+    background: rgb(0, 48, 207);
+    transition: .5s;
+}
+
+.pessoa img{
+    height: 100px;
+}
+
+
+/* RODAPE */
+
+#rodape{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+#rodape p{
+    color: white;
+}
